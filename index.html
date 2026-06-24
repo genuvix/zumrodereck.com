@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-de="Zum Rödereck – Hotel" data-en="Zum Rödereck – Hotel">Zum Rödereck – Hotel</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#top" class="logo">
+      <img src="images/logo.png" alt="Zum Rödereck Logo" class="logo-img">
+      <span>Zum Rödereck</span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#top" data-de="Startseite" data-en="Home">Startseite</a>
+      <a href="#zimmer" data-de="Zimmer" data-en="Rooms">Zimmer</a>
+      <a href="#buchen" data-de="Buchen" data-en="Booking">Buchen</a>
+      <a href="#kontakt" data-de="Kontakt" data-en="Contact">Kontakt</a>
+      <span class="lang-switch">
+        <button class="lang-btn active" data-lang="de">DE</button>
+        <span class="lang-sep">|</span>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </span>
+    </nav>
+  </div>
+</header>
+
+<section class="hero-scroll" id="top">
+  <div class="hero-sticky">
+    <div class="hero-info-layer">
+      <p class="hero-eyebrow hero-anim" style="--d:0s" data-de="Willkommen im" data-en="Welcome to">Willkommen im</p>
+      <h1 class="hero-title hero-anim" style="--d:0.15s">Hotel Zum Rödereck</h1>
+      <p class="hero-subtitle hero-anim" style="--d:0.3s" data-de="Wo Gastlichkeit Tradition hat" data-en="Where hospitality is tradition">Wo Gastlichkeit Tradition hat</p>
+      <a href="#buchen" class="btn btn-gold hero-anim" style="--d:0.45s" data-de="Jetzt anfragen" data-en="Enquire now">Jetzt anfragen</a>
+    </div>
+
+    <div class="hero-logo-layer">
+      <img src="images/logo.png" alt="Zum Rödereck" class="hero-logo-img">
+      <p class="hero-logo-caption" data-de="Tradition seit Generationen" data-en="Tradition for generations">Tradition seit Generationen</p>
+    </div>
+
+    <a href="#erleben" class="scroll-cue" aria-label="Scroll down"><span></span></a>
+  </div>
+</section>
+
+<section class="zoom-scroll" id="erleben">
+  <div class="zoom-sticky">
+    <div class="zoom-media">
+      <div class="zoom-img zoom-img-exterior" style="background-image:url('images/hotel-exterior.jpg')"></div>
+      <div class="zoom-img zoom-img-interior" style="background-image:url('images/hero-banner.jpg')"></div>
+      <div class="zoom-vignette"></div>
+    </div>
+    <div class="zoom-caption">
+      <p class="zoom-caption-line" data-phase="1" data-de="Unser Haus erwartet Sie" data-en="Our house awaits you">Unser Haus erwartet Sie</p>
+      <p class="zoom-caption-line" data-phase="2" data-de="Treten Sie ein in unseren Empfangsbereich" data-en="Step inside our reception area">Treten Sie ein in unseren Empfangsbereich</p>
+    </div>
+  </div>
+</section>
+
+<section class="intro">
+  <div class="container">
+    <h2 class="reveal" data-de="Herzlich willkommen" data-en="A warm welcome">Herzlich willkommen</h2>
+    <p class="reveal" data-de="Im Hotel Zum Rödereck verbinden wir gepflegte Gastlichkeit mit ruhigem Komfort. Unsere Zimmer sind liebevoll eingerichtet und laden Sie ein, sich rundum wohlzufühlen – ganz gleich, ob Sie geschäftlich reisen oder Ihren Urlaub genießen möchten."
+       data-en="At Hotel Zum Rödereck we combine attentive hospitality with quiet comfort. Our rooms are thoughtfully furnished and invite you to feel completely at home, whether you are travelling for business or enjoying your holiday.">
+       Im Hotel Zum Rödereck verbinden wir gepflegte Gastlichkeit mit ruhigem Komfort. Unsere Zimmer sind liebevoll eingerichtet und laden Sie ein, sich rundum wohlzufühlen – ganz gleich, ob Sie geschäftlich reisen oder Ihren Urlaub genießen möchten.
+    </p>
+  </div>
+</section>
+
+<section class="rooms" id="zimmer">
+  <div class="container">
+    <h2 class="reveal" data-de="Unsere Zimmer" data-en="Our Rooms">Unsere Zimmer</h2>
+    <p class="section-sub reveal" data-de="Wählen Sie das passende Zimmer für Ihren Aufenthalt" data-en="Choose the right room for your stay">Wählen Sie das passende Zimmer für Ihren Aufenthalt</p>
+
+    <div class="room-grid">
+
+      <article class="room-card reveal">
+        <div class="room-image">
+          <img src="images/zimmer-einzel.jpg" alt="Einzelzimmer" onerror="this.style.display='none'; this.parentElement.classList.add('img-missing')">
+        </div>
+        <div class="room-body">
+          <h3 data-de="Einzelzimmer" data-en="Single Room">Einzelzimmer</h3>
+          <p data-de="Gemütliches Zimmer für den Alleinreisenden, ausgestattet mit allem Komfort." data-en="Cosy room for the solo traveller, equipped with every comfort.">Gemütliches Zimmer für den Alleinreisenden, ausgestattet mit allem Komfort.</p>
+          <p class="room-price"><span data-de="ab" data-en="from">ab</span> 79&nbsp;€ <span data-de="/ Nacht" data-en="/ night">/ Nacht</span></p>
+          <a href="#buchen" class="btn btn-outline" data-room="Einzelzimmer" data-de="Jetzt buchen" data-en="Book now">Jetzt buchen</a>
+        </div>
+      </article>
+
+      <article class="room-card reveal">
+        <div class="room-image">
+          <img src="images/zimmer-doppel.jpg" alt="Doppelzimmer" onerror="this.style.display='none'; this.parentElement.classList.add('img-missing')">
+        </div>
+        <div class="room-body">
+          <h3 data-de="Doppelzimmer" data-en="Double Room">Doppelzimmer</h3>
+          <p data-de="Großzügiges Zimmer für zwei Personen mit komfortablem Doppelbett." data-en="Spacious room for two with a comfortable double bed.">Großzügiges Zimmer für zwei Personen mit komfortablem Doppelbett.</p>
+          <p class="room-price"><span data-de="ab" data-en="from">ab</span> 109&nbsp;€ <span data-de="/ Nacht" data-en="/ night">/ Nacht</span></p>
+          <a href="#buchen" class="btn btn-outline" data-room="Doppelzimmer" data-de="Jetzt buchen" data-en="Book now">Jetzt buchen</a>
+        </div>
+      </article>
+
+      <article class="room-card reveal">
+        <div class="room-image">
+          <img src="images/zimmer-suite.jpg" alt="Suite" onerror="this.style.display='none'; this.parentElement.classList.add('img-missing')">
+        </div>
+        <div class="room-body">
+          <h3 data-de="Suite" data-en="Suite">Suite</h3>
+          <p data-de="Unsere geräumigste Kategorie mit separatem Wohnbereich und edler Ausstattung." data-en="Our most spacious category with a separate living area and elegant furnishings.">Unsere geräumigste Kategorie mit separatem Wohnbereich und edler Ausstattung.</p>
+          <p class="room-price"><span data-de="ab" data-en="from">ab</span> 179&nbsp;€ <span data-de="/ Nacht" data-en="/ night">/ Nacht</span></p>
+          <a href="#buchen" class="btn btn-outline" data-room="Suite" data-de="Jetzt buchen" data-en="Book now">Jetzt buchen</a>
+        </div>
+      </article>
+
+      <article class="room-card reveal">
+        <div class="room-image">
+          <img src="images/zimmer-familie.jpg" alt="Familienzimmer" onerror="this.style.display='none'; this.parentElement.classList.add('img-missing')">
+        </div>
+        <div class="room-body">
+          <h3 data-de="Familienzimmer" data-en="Family Room">Familienzimmer</h3>
+          <p data-de="Viel Platz für die ganze Familie mit flexiblen Bettmöglichkeiten." data-en="Plenty of space for the whole family with flexible bedding options.">Viel Platz für die ganze Familie mit flexiblen Bettmöglichkeiten.</p>
+          <p class="room-price"><span data-de="ab" data-en="from">ab</span> 139&nbsp;€ <span data-de="/ Nacht" data-en="/ night">/ Nacht</span></p>
+          <a href="#buchen" class="btn btn-outline" data-room="Familienzimmer" data-de="Jetzt buchen" data-en="Book now">Jetzt buchen</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section class="booking" id="buchen">
+  <div class="container">
+    <h2 class="reveal" data-de="Zimmer buchen" data-en="Book a room">Zimmer buchen</h2>
+    <p class="section-sub reveal" data-de="Senden Sie uns Ihre Buchungsanfrage – wir melden uns umgehend zurück." data-en="Send us your booking request – we will get back to you promptly.">Senden Sie uns Ihre Buchungsanfrage – wir melden uns umgehend zurück.</p>
+
+    <form class="booking-form reveal" id="bookingForm" novalidate>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="name" data-de="Name" data-en="Name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email" data-de="E-Mail" data-en="Email">E-Mail</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="phone" data-de="Telefon" data-en="Phone">Telefon</label>
+          <input type="tel" id="phone" name="phone">
+        </div>
+        <div class="form-group">
+          <label for="guests" data-de="Anzahl Gäste" data-en="Number of guests">Anzahl Gäste</label>
+          <input type="number" id="guests" name="guests" min="1" value="1">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="checkin" data-de="Anreise" data-en="Check-in">Anreise</label>
+          <input type="date" id="checkin" name="checkin" required>
+        </div>
+        <div class="form-group">
+          <label for="checkout" data-de="Abreise" data-en="Check-out">Abreise</label>
+          <input type="date" id="checkout" name="checkout" required>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="roomtype" data-de="Zimmertyp" data-en="Room type">Zimmertyp</label>
+        <select id="roomtype" name="roomtype">
+          <option value="Einzelzimmer" data-de="Einzelzimmer" data-en="Single Room">Einzelzimmer</option>
+          <option value="Doppelzimmer" data-de="Doppelzimmer" data-en="Double Room">Doppelzimmer</option>
+          <option value="Suite" data-de="Suite" data-en="Suite">Suite</option>
+          <option value="Familienzimmer" data-de="Familienzimmer" data-en="Family Room">Familienzimmer</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="message" data-de="Nachricht (optional)" data-en="Message (optional)">Nachricht (optional)</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-gold" data-de="Anfrage senden" data-en="Send request">Anfrage senden</button>
+
+      <p class="form-note" id="formNote" data-de="Diese Anfrage ist unverbindlich. Wir bestätigen Ihre Buchung per E-Mail oder Telefon." data-en="This request is non-binding. We will confirm your booking by email or phone.">Diese Anfrage ist unverbindlich. Wir bestätigen Ihre Buchung per E-Mail oder Telefon.</p>
+
+      <p class="form-success" id="formSuccess" data-de="Vielen Dank! Ihre Anfrage wurde erfasst. Wir melden uns in Kürze bei Ihnen." data-en="Thank you! Your request has been received. We will contact you shortly." hidden></p>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer" id="kontakt">
+  <div class="container footer-grid">
+    <div>
+      <h3>Zum Rödereck</h3>
+      <p data-de="Musterstraße 1<br>12345 Musterstadt<br>Deutschland" data-en="Sample Street 1<br>12345 Sample City<br>Germany">Musterstraße 1<br>12345 Musterstadt<br>Deutschland</p>
+    </div>
+    <div>
+      <h3 data-de="Kontakt" data-en="Contact">Kontakt</h3>
+      <p>Tel: +49 (0) 123 456789<br>E-Mail: info@zumrodereck.com</p>
+    </div>
+    <div>
+      <h3 data-de="Öffnungszeiten" data-en="Hours">Öffnungszeiten</h3>
+      <p data-de="Rezeption: täglich 07:00–22:00 Uhr" data-en="Reception: daily 7:00 AM–10:00 PM">Rezeption: täglich 07:00–22:00 Uhr</p>
+    </div>
+  </div>
+  <p class="copyright">&copy; 2026 Hotel Zum Rödereck. <span data-de="Alle Rechte vorbehalten." data-en="All rights reserved.">Alle Rechte vorbehalten.</span></p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
