@@ -73,6 +73,7 @@ a { text-decoration: none; color: inherit; }
 
 /* ===== Header ===== */
 .site-header {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   background: rgba(255,255,255,0.97);
@@ -172,6 +173,7 @@ a { text-decoration: none; color: inherit; }
 }
 
 .hero-sticky {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   height: 100vh;
@@ -286,6 +288,7 @@ a { text-decoration: none; color: inherit; }
 }
 
 .zoom-sticky {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   height: 100vh;
@@ -352,6 +355,7 @@ a { text-decoration: none; color: inherit; }
 }
 
 .menu-zoom-sticky {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   height: 100vh;
