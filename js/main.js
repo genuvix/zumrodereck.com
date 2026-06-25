@@ -92,6 +92,7 @@
 
     // ===== Hero pinned scroll (intro text -> logo reveal) =====
     (function () {
+     try {
       var wrapper = document.querySelector('.hero-scroll');
       if (!wrapper) return;
 
@@ -139,10 +140,12 @@
       window.addEventListener('resize', update);
       if (window.visualViewport) window.visualViewport.addEventListener('resize', update);
       update();
+     } catch (e) { if (window.console) console.error('hero-scroll init failed:', e); }
     })();
 
     // ===== Scroll-driven zoom (exterior -> interior reveal) =====
     (function () {
+     try {
       var wrapper = document.querySelector('.zoom-scroll');
       if (!wrapper) return;
 
@@ -191,10 +194,12 @@
       window.addEventListener('resize', update);
       if (window.visualViewport) window.visualViewport.addEventListener('resize', update);
       update();
+     } catch (e) { if (window.console) console.error('zoom-scroll init failed:', e); }
     })();
 
     // ===== Menu pinned scroll (category titles zoom in -> hold -> zoom out) =====
     (function () {
+     try {
       var wrapper = document.querySelector('.menu-zoom');
       if (!wrapper) return;
 
@@ -272,10 +277,12 @@
       window.addEventListener('resize', update);
       if (window.visualViewport) window.visualViewport.addEventListener('resize', update);
       update();
+     } catch (e) { if (window.console) console.error('menu-zoom init failed:', e); }
     })();
 
     // ===== Menu tabs (category switch with zoom transition) =====
     (function () {
+     try {
       var tabs = document.querySelectorAll('.menu-tab');
       var panels = document.querySelectorAll('.menu-panel');
       if (!tabs.length || !panels.length) return;
@@ -296,6 +303,7 @@
           });
         });
       });
+     } catch (e) { if (window.console) console.error('menu-tabs init failed:', e); }
     })();
 
     // ===== Booking form (static - no backend wired up yet) =====
